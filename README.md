@@ -7,7 +7,7 @@ git clone https://github.com/Wolfman1219/Tensorflow_boston_housing.git
 
 2) Skript joylashgan papkaga kiring:
 
-cd Tensorflow_boston_housing
+```cd Tensorflow_boston_housing```
 
 3) Yangi virtual maydon yarating va uni faollashtiring:
 
