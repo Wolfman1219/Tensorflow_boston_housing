@@ -2,25 +2,36 @@
 Boston housing data with tensorflow
 # Dasturni ishga tushirish uchun:
 1) Terminal, cmd yoki Powershellda ushbu komandani tering:
-
-git clone https://github.com/Wolfman1219/Tensorflow_boston_housing.git
+```shell
+   git clone https://github.com/Wolfman1219/Tensorflow_boston_housing.git
+```
 
 2) Skript joylashgan papkaga kiring:
-
-```cd Tensorflow_boston_housing```
+```shell
+   cd Tensorflow_boston_housing
+```
 
 3) Yangi virtual maydon yarating va uni faollashtiring:
+```shell
+   python -m venv virtual
+```
 
-python -m venv virtual
+  Windowsda:
+  ```shell
+     .\virtual\Scripts\activate
+  ```
 
-windowsda:
-.\virtual\Scripts\activate
+  Linuxda:
+  ```shell
+     . virtual/bin/activate
+  ```
 
-Linuxda:
-. virtual/bin/activate
-
-4) Kerakli kutubxonalarni o'rnating:
-pip install -r requirements.txt
+4) Kerakli kutubxonalarni o'rnatish:
+```shell
+   pip install -r requirements.txt
+```
 
 5) Ishga tushiring:
-python for_train.py
+```shell
+   python for_train.py
+```
