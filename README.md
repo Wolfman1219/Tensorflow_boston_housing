@@ -32,10 +32,11 @@ Boston housing data with tensorflow
 ```
 
 # Streamlit bilan visual ko'rinishda:
-
+Agar dasturni o'zgartirmoqchi bo'lsangiz
 ```shell
    streamlit run with_streamlit.py
 ```
+Yoki https://wolfman1219-tensorflow-boston-housing-with-streamlit-nnpihs.streamlit.app/ sayti orqali ham ko'rishingiz mumkin
 Ekranda chiqqan ipni brauzerda kiriting va sahifani oching
 
 # Shunchaki o'qitish tushiring:
