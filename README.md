@@ -36,7 +36,8 @@ Agar dasturni o'zgartirmoqchi bo'lsangiz
 ```shell
    streamlit run with_streamlit.py
 ```
-Ekranda chiqqan ipni brauzerda kiriting va sahifani oching
+Ekranda chiqqan ipni brauzerda kiriting va sahifani oching.
+
 Yoki https://wolfman1219-tensorflow-boston-housing-with-streamlit-nnpihs.streamlit.app/ sayti orqali ham ko'rishingiz mumkin
 
 # Shunchaki o'qitish tushiring:
