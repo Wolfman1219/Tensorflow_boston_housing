@@ -15,12 +15,16 @@ x_test /= std
 
 inputs = keras.layers.Input((13,))
 features = keras.layers.Dense(64, activation="relu")(inputs)
+features = keras.layers.Dense(32, activation="relu")(features)
+features = keras.layers.Dense(16, activation="relu")(features)
+
 outputs = keras.layers.Dense(1)(features)
 model = keras.Model(inputs=inputs, outputs=outputs)
 
-model.compile(optimizer="adam", loss="mse", metrics=["mae"])
+model.compile(optimizer="adam", loss="mse", metrics=["mae", "accuracy"])
 
 model.fit(x_train, y_train, epochs=150, batch_size=64)
-test_mse_score, test_mae_score = model.evaluate(x_test, y_test)
+test_mse_score, test_mae_score, accuracy = model.evaluate(x_test, y_test)
 print(test_mae_score)
 print(test_mse_score)
+print(accuracy)
