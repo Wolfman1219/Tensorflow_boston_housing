@@ -36,7 +36,7 @@ Boston housing data with tensorflow
 ```shell
    streamlit run with_streamlit.py
 ```
-
+Ekranda chiqqan ipni brauzerda kiriting va sahifani oching
 
 # Shunchaki o'qitish tushiring:
 ```shell
