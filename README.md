@@ -31,7 +31,14 @@ Boston housing data with tensorflow
    pip install -r requirements.txt
 ```
 
-5) Ishga tushiring:
+# Streamlit bilan visual ko'rinishda:
+
+```shell
+   streamlit run with_streamlit.py
+```
+
+
+# Shunchaki o'qitish tushiring:
 ```shell
    python for_train.py
 ```
