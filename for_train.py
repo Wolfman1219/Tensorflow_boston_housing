@@ -23,8 +23,20 @@ model = keras.Model(inputs=inputs, outputs=outputs)
 
 model.compile(optimizer="adam", loss="mse", metrics=["mae", "accuracy"])
 
-model.fit(x_train, y_train, epochs=150, batch_size=64)
+
+
+cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath="checkpoint/check",
+                                                 save_weights_only=True,
+                                                 verbose=1)
+
+
+
+model.fit(x_train, y_train, epochs=150, batch_size=64, callbacks=[cp_callback])
 test_mse_score, test_mae_score, accuracy = model.evaluate(x_test, y_test)
+
+
+
+
 print(test_mae_score)
 print(test_mse_score)
 print(accuracy)
