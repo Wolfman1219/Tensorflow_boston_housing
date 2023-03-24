@@ -39,6 +39,7 @@ Agar dasturni o'zgartirmoqchi bo'lsangiz
 Ekranda chiqqan ipni brauzerda kiriting va sahifani oching.
 
 Yoki https://wolfman1219-tensorflow-boston-housing-with-streamlit-nnpihs.streamlit.app/ sayti orqali train jarayonini ko'rishingiz mumkin
+
 Yoki https://wolfman1219-tensorflow-boston-housing-streamlit2-wdaist.streamlit.app/ sayti orqali bashorat qismini ko'rinishingiz mumkin
 
 # Shunchaki o'qitish tushiring:
